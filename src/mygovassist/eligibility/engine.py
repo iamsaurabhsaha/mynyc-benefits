@@ -170,7 +170,7 @@ def _check_medicaid(program: ProgramData, h: Household) -> _CheckResult:
 
 def _check_eitc(program: ProgramData, h: Household) -> _CheckResult:
     """EITC eligibility (federal + NY State + NYC)."""
-    if not h.is_employed:
+    if not h.is_employed or h.annual_income <= 0:
         return False, "high", None, "EITC requires earned income from employment."
 
     if not h.is_us_citizen_or_pr:

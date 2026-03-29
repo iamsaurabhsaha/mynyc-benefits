@@ -1,12 +1,15 @@
 """Data models for household input and eligibility results."""
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
+
+VALID_BOROUGHS = {"manhattan", "brooklyn", "queens", "bronx", "staten_island"}
+VALID_FILING_STATUSES = {"single", "married_joint", "head_of_household"}
 
 
 class Household(BaseModel):
     """Household information used to determine benefits eligibility."""
 
-    annual_income: int = Field(description="Gross annual household income in dollars")
+    annual_income: int = Field(ge=0, description="Gross annual household income in dollars")
     household_size: int = Field(ge=1, le=20, description="Number of people in household")
     borough: str | None = Field(
         default=None,
@@ -30,6 +33,24 @@ class Household(BaseModel):
         default=False, description="Living in rent-regulated apartment"
     )
     has_health_insurance: bool = Field(default=True, description="Has health insurance")
+
+    @field_validator("borough")
+    @classmethod
+    def validate_borough(cls, v: str | None) -> str | None:
+        if v is not None and v.lower() not in VALID_BOROUGHS:
+            raise ValueError(
+                f"Invalid borough: '{v}'. Must be one of: {', '.join(sorted(VALID_BOROUGHS))}"
+            )
+        return v.lower() if v else None
+
+    @field_validator("filing_status")
+    @classmethod
+    def validate_filing_status(cls, v: str) -> str:
+        if v not in VALID_FILING_STATUSES:
+            raise ValueError(
+                f"Invalid filing status: '{v}'. Must be one of: {', '.join(sorted(VALID_FILING_STATUSES))}"
+            )
+        return v
 
     @property
     def max_age(self) -> int | None:
