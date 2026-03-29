@@ -1,0 +1,26 @@
+{
+  "program": "drie",
+  "display_name": "DRIE (Disability Rent Freeze)",
+  "agency": "NYC Department of Finance",
+  "local_agency": null,
+  "description": "Freezes rent for eligible people with disabilities in rent-regulated apartments. Protects against rent increases.",
+  "category": "housing",
+  "eligibility": {
+    "requires_disability_benefits": true,
+    "disability_benefits_list": "Must receive SSI, SSDI, VA disability pension, disability-related Medicaid, or other qualifying disability benefits.",
+    "min_age": 18,
+    "income_limit": 50000,
+    "rent_regulated_required": true,
+    "rent_burden_note": "Must be paying more than 1/3 of income toward rent.",
+    "notes": "Combined household income must be $50,000 or less. Must live in rent-regulated housing."
+  },
+  "apply_url": "https://www.nyc.gov/site/finance/benefits/tenants-drie.page",
+  "apply_in_person": "Apply by mail or visit the NYC Department of Finance office.",
+  "how_to_apply": "Apply online, by mail, or in person at the NYC Department of Finance. You'll need proof of disability benefits, income, lease, and rent-regulated status.",
+  "citation": "NYC Administrative Code § 26-510; NY Real Property Tax Law § 467-b",
+  "source_url": "https://www.nyc.gov/site/finance/benefits/tenants-drie.page",
+  "last_verified": "2026-03-28",
+  "next_update": null,
+  "update_frequency": "subject to city council action (income limit may change)",
+  "related_programs": ["scrie", "heap"]
+}

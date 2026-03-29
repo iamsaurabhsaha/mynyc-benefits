@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #005ea2;
+  --color-primary-dark: #1a4480;
+  --color-success: #00a91c;
+  --color-warning: #e5a000;
+  --color-bg: #f0f0f0;
+  --color-text: #1b1b1b;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+a {
+  color: var(--color-primary);
+}
+a:hover {
+  color: var(--color-primary-dark);
+}

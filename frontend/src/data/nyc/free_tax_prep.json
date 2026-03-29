@@ -1,0 +1,22 @@
+{
+  "program": "free_tax_prep",
+  "display_name": "NYC Free Tax Prep",
+  "agency": "NYC Department of Consumer and Worker Protection (DCWP)",
+  "local_agency": null,
+  "description": "Free tax preparation services for NYC residents. Helps you file federal and state returns and claim credits like EITC, CTC, and NY State credits.",
+  "category": "tax_credit",
+  "eligibility": {
+    "income_limit": 85000,
+    "income_limit_note": "Families earning $85,000 or less. Single filers earning approximately $56,000 or less may also qualify depending on the site.",
+    "notes": "Income threshold may change each tax season. Check the source URL for current limits."
+  },
+  "apply_url": "https://www.nyc.gov/site/dca/consumers/file-your-taxes.page",
+  "apply_in_person": "Visit a Free Tax Prep site. Find locations at the URL above or call 311.",
+  "how_to_apply": "Visit a Free Tax Prep site in person or file online through NYC Free Tax Prep partners. Find sites at nyc.gov/taxprep or call 311.",
+  "citation": "Administered by NYC DCWP",
+  "source_url": "https://www.nyc.gov/site/dca/consumers/file-your-taxes.page",
+  "last_verified": "2026-03-28",
+  "next_update": "2027-01-01",
+  "update_frequency": "annual (each tax season)",
+  "related_programs": ["eitc", "ctc"]
+}

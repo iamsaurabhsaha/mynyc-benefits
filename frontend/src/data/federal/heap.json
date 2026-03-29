@@ -1,0 +1,23 @@
+{
+  "program": "heap",
+  "display_name": "HEAP (Home Energy Assistance)",
+  "agency": "U.S. Department of Health and Human Services",
+  "local_agency": "NY Office of Temporary and Disability Assistance (OTDA) / NYC HRA",
+  "description": "Helps low-income households pay heating and cooling costs. Includes Regular HEAP, Emergency HEAP, and Cooling Assistance.",
+  "category": "energy",
+  "eligibility": {
+    "income_pct_fpl": 150,
+    "income_note": "NY sets HEAP income limits at approximately 60% of State Median Income, which is roughly equivalent to 150% FPL for most household sizes.",
+    "auto_eligible": "Automatically eligible if receiving SNAP, SSI, or Temporary Assistance (TANF).",
+    "program_period_note": "Regular HEAP typically opens November 1. Emergency HEAP typically opens January. Cooling Assistance available in summer. Dates vary each year."
+  },
+  "apply_url": "https://a069-access.nyc.gov/accesshra/",
+  "apply_in_person": "Visit your local HRA office or call 212-331-3126.",
+  "how_to_apply": "Apply online through ACCESS HRA, by phone, or at your local HRA office. Bring proof of income, utility bill, and ID.",
+  "citation": "42 USC 8621-8630 (federal LIHEAP); NY Social Services Law § 97",
+  "source_url": "https://otda.ny.gov/programs/heap/",
+  "last_verified": "2026-03-28",
+  "next_update": "2025-11-01",
+  "update_frequency": "annual (each heating season)",
+  "related_programs": ["snap", "fair_fares"]
+}

@@ -1,0 +1,51 @@
+{
+  "program": "eitc",
+  "display_name": "Earned Income Tax Credit (EITC)",
+  "agency": "Internal Revenue Service (IRS)",
+  "local_agency": "NY Department of Taxation and Finance",
+  "description": "Tax credit for working individuals and families. NYC residents can receive a triple credit: federal EITC + NY State EITC (30% of federal) + NYC Noncustodial Parent EITC.",
+  "category": "tax_credit",
+  "eligibility": {
+    "requires_earned_income": true,
+    "requires_ssn": true,
+    "income_limits": {
+      "single": {
+        "0": 18600,
+        "1": 49000,
+        "2": 55700,
+        "3": 59900
+      },
+      "married_joint": {
+        "0": 25500,
+        "1": 56000,
+        "2": 62600,
+        "3": 66800
+      },
+      "head_of_household": {
+        "0": 18600,
+        "1": 49000,
+        "2": 55700,
+        "3": 59900
+      }
+    },
+    "max_federal_credit": {
+      "0": 650,
+      "1": 4200,
+      "2": 6960,
+      "3": 7830
+    },
+    "ny_state_eitc_pct": 30,
+    "nyc_eitc_pct": 5,
+    "nyc_eitc_note": "NYC Noncustodial Parent EITC is a separate, narrower credit (up to 5% of federal). NYC does not have a general EITC add-on.",
+    "notes": "Income limits and credit amounts are approximate for TY2025. Verify at IRS.gov. Investment income limit: ~$11,950."
+  },
+  "apply_url": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc",
+  "apply_in_person": "Claim on your federal and NY State tax return. Free filing at NYC Free Tax Prep sites.",
+  "how_to_apply": "Claim the credit when filing your federal and NY State tax return. Use NYC Free Tax Prep for free filing assistance.",
+  "citation": "IRC Section 32 (federal); NY Tax Law Section 606(d) (state); NYC Admin Code (city)",
+  "source_url": "https://www.tax.ny.gov/pit/credits/earned-income-credit.htm",
+  "last_verified": "2026-03-28",
+  "next_update": "2026-01-01",
+  "update_frequency": "annual (IRS publishes thresholds in fall for next tax year)",
+  "related_programs": ["ctc", "free_tax_prep"]
+}

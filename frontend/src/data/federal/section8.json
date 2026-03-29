@@ -1,0 +1,31 @@
+{
+  "program": "section8",
+  "display_name": "Section 8 / NYCHA Housing",
+  "agency": "U.S. Department of Housing and Urban Development (HUD)",
+  "local_agency": "NYC Housing Authority (NYCHA)",
+  "description": "Housing Choice Voucher (Section 8) and public housing through NYCHA. Provides rental assistance for low-income families.",
+  "category": "housing",
+  "eligibility": {
+    "income_limit": {
+      "extremely_low_income": {
+        "1": 28150, "2": 32150, "3": 36150, "4": 40150,
+        "5": 43400, "6": 46600, "7": 49800, "8": 53050
+      },
+      "very_low_income": {
+        "1": 46900, "2": 53600, "3": 60300, "4": 66950,
+        "5": 72350, "6": 77700, "7": 83050, "8": 88400
+      }
+    },
+    "notes": "Income limits are based on Area Median Income (AMI) for NYC metro area, updated annually by HUD. 75% of vouchers must go to extremely low income families (30% AMI). Figures shown are approximate FY2025 values — verify at HUD.",
+    "waitlist_status": "NYCHA Section 8 and public housing waitlists have been CLOSED for several years. Check nyc.gov/nycha for any new openings."
+  },
+  "apply_url": "https://www.nyc.gov/site/nycha/eligibility/eligibility.page",
+  "apply_in_person": "NYCHA Application Center — check nyc.gov/nycha for current application procedures.",
+  "how_to_apply": "Apply through NYCHA when the waitlist opens. Monitor nyc.gov/nycha for lottery announcements. Also check NYC Housing Connect for affordable housing lotteries: housingconnect.nyc.gov",
+  "citation": "42 USC 1437f (Section 8); 24 CFR 982; NYC Housing Authority Charter",
+  "source_url": "https://www.nyc.gov/site/nycha/eligibility/eligibility.page",
+  "last_verified": "2026-03-28",
+  "next_update": "2026-04-01",
+  "update_frequency": "annual (HUD publishes income limits each spring)",
+  "related_programs": ["heap", "fair_fares"]
+}
