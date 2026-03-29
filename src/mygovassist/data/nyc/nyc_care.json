@@ -1,0 +1,23 @@
+{
+  "program": "nyc_care",
+  "display_name": "NYC Care (Healthcare Access)",
+  "agency": "NYC Health + Hospitals",
+  "local_agency": null,
+  "description": "Low-cost healthcare program for NYC residents who are uninsured and do not qualify for or cannot afford health insurance. Open to all regardless of immigration status.",
+  "category": "healthcare",
+  "eligibility": {
+    "requires_uninsured": true,
+    "income_limit": null,
+    "immigration_requirement": false,
+    "notes": "No strict income limit. For those who cannot afford or are ineligible for insurance, including undocumented residents. Provides a primary care provider, specialty care, prescriptions, and more at NYC Health + Hospitals facilities."
+  },
+  "apply_url": "https://www.nyccare.nyc/",
+  "apply_in_person": "Visit any NYC Health + Hospitals facility or call 646-NYC-CARE (646-692-2273).",
+  "how_to_apply": "Call 646-NYC-CARE (646-692-2273) or visit any NYC Health + Hospitals location to enroll.",
+  "citation": "Administered by NYC Health + Hospitals under mayoral initiative",
+  "source_url": "https://www.nyccare.nyc/",
+  "last_verified": "2026-03-28",
+  "next_update": null,
+  "update_frequency": "subject to city budget",
+  "related_programs": ["medicaid"]
+}

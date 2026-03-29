@@ -1,0 +1,29 @@
+{
+  "program": "snap",
+  "display_name": "SNAP (Food Assistance)",
+  "agency": "USDA Food and Nutrition Service",
+  "local_agency": "NYC Human Resources Administration (HRA)",
+  "description": "Monthly food assistance loaded onto an EBT card. NY has among the most generous SNAP eligibility in the country through Broad-Based Categorical Eligibility.",
+  "category": "food",
+  "eligibility": {
+    "gross_income_pct_fpl": 200,
+    "net_income_pct_fpl": 100,
+    "asset_test": false,
+    "notes": "NY uses Broad-Based Categorical Eligibility (BBCE) with 200% FPL gross income test and no asset test. Net income must be at or below 100% FPL after deductions.",
+    "requires_citizenship": true
+  },
+  "max_allotments_fy2025": {
+    "1": 292, "2": 536, "3": 768, "4": 975,
+    "5": 1158, "6": 1390, "7": 1536, "8": 1756,
+    "each_additional": 220
+  },
+  "apply_url": "https://a069-access.nyc.gov/accesshra/",
+  "apply_in_person": "Visit your local HRA office. Locations: https://www.nyc.gov/site/hra/locations/locations.page",
+  "how_to_apply": "Apply online through ACCESS HRA, by phone at 718-557-1399, or in person at your local HRA office.",
+  "citation": "7 U.S.C. § 2014(c); 7 CFR § 273.9; 7 CFR 273.2(j)(2) (BBCE); NY Social Services Law § 95",
+  "source_url": "https://otda.ny.gov/programs/snap/",
+  "last_verified": "2026-03-28",
+  "next_update": "2025-10-01",
+  "update_frequency": "annual (October, federal fiscal year)",
+  "related_programs": ["wic", "free_tax_prep", "heap"]
+}

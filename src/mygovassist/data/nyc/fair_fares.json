@@ -1,0 +1,23 @@
+{
+  "program": "fair_fares",
+  "display_name": "Fair Fares NYC (Half-Price MetroCard)",
+  "agency": "NYC Department of Social Services",
+  "local_agency": "NYC HRA",
+  "description": "Provides half-price MetroCard for subway and eligible bus rides to low-income NYC residents ages 18-64.",
+  "category": "other",
+  "eligibility": {
+    "income_pct_fpl": 100,
+    "min_age": 18,
+    "max_age": 64,
+    "notes": "Seniors 65+ and people with disabilities qualify for separate MTA reduced fare programs."
+  },
+  "apply_url": "https://a069-access.nyc.gov/accesshra/",
+  "apply_in_person": "Visit your local HRA office with proof of identity, NYC residency, and income.",
+  "how_to_apply": "Apply online through ACCESS HRA or in person at an HRA office.",
+  "citation": "NYC Local Law (administered by DSS/HRA)",
+  "source_url": "https://www.nyc.gov/site/fairfares/index.page",
+  "last_verified": "2026-03-28",
+  "next_update": null,
+  "update_frequency": "subject to city council action",
+  "related_programs": ["snap", "heap"]
+}

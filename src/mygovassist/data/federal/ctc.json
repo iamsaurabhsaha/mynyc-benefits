@@ -1,0 +1,29 @@
+{
+  "program": "ctc",
+  "display_name": "Child Tax Credit (CTC)",
+  "agency": "Internal Revenue Service (IRS)",
+  "local_agency": null,
+  "description": "Tax credit of up to $2,000 per qualifying child under 17. Up to $1,700 is refundable (Additional Child Tax Credit).",
+  "category": "tax_credit",
+  "eligibility": {
+    "credit_per_child": 2000,
+    "refundable_portion": 1700,
+    "child_max_age": 16,
+    "phase_out_threshold": {
+      "single": 200000,
+      "head_of_household": 200000,
+      "married_joint": 400000
+    },
+    "phase_out_rate_per_1000": 50,
+    "notes": "Credit phases out by $50 for each $1,000 of income over the threshold. Amounts are post-TCJA and subject to legislative changes."
+  },
+  "apply_url": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit",
+  "apply_in_person": "Claim on your federal tax return. Free filing at NYC Free Tax Prep sites.",
+  "how_to_apply": "Claim the credit when filing your federal tax return.",
+  "citation": "IRC Section 24",
+  "source_url": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit",
+  "last_verified": "2026-03-28",
+  "next_update": "2026-01-01",
+  "update_frequency": "annual (subject to legislative changes)",
+  "related_programs": ["eitc", "free_tax_prep"]
+}

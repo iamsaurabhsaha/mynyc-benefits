@@ -1,0 +1,21 @@
+{
+  "program": "getfood",
+  "display_name": "GetFoodNYC (Free Food Resources)",
+  "agency": "NYC Mayor's Office of Food Policy",
+  "local_agency": null,
+  "description": "Free food resources available to all NYC residents. Includes food pantries, community kitchens, and food distribution sites across all five boroughs.",
+  "category": "food",
+  "eligibility": {
+    "income_limit": null,
+    "notes": "No income test. No ID required at most sites. Available to all NYC residents."
+  },
+  "apply_url": "https://www.nyc.gov/site/foodpolicy/get-food/get-food.page",
+  "apply_in_person": "Visit any food pantry or community kitchen. Find locations at the URL above or call 311.",
+  "how_to_apply": "No application needed. Visit any food pantry, community kitchen, or food distribution site. Call 311 or visit the website to find locations near you.",
+  "citation": "NYC Mayor's Office of Food Policy",
+  "source_url": "https://www.nyc.gov/site/foodpolicy/get-food/get-food.page",
+  "last_verified": "2026-03-28",
+  "next_update": null,
+  "update_frequency": "ongoing",
+  "related_programs": ["snap", "wic"]
+}

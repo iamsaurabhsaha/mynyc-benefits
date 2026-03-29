@@ -1,0 +1,24 @@
+{
+  "program": "scrie",
+  "display_name": "SCRIE (Senior Rent Freeze)",
+  "agency": "NYC Department of Finance",
+  "local_agency": null,
+  "description": "Freezes rent for eligible senior citizens (62+) in rent-regulated apartments. Protects against rent increases.",
+  "category": "housing",
+  "eligibility": {
+    "min_age": 62,
+    "income_limit": 50000,
+    "rent_regulated_required": true,
+    "rent_burden_note": "Must be paying more than 1/3 of income toward rent.",
+    "notes": "Must live in a rent-stabilized, rent-controlled, or certain other regulated housing. Combined household income must be $50,000 or less."
+  },
+  "apply_url": "https://www.nyc.gov/site/finance/benefits/tenants-scrie.page",
+  "apply_in_person": "Apply by mail or visit the NYC Department of Finance office.",
+  "how_to_apply": "Apply online, by mail, or in person at the NYC Department of Finance. You'll need proof of age, income, lease, and rent-regulated status.",
+  "citation": "NYC Administrative Code § 26-509; NY Real Property Tax Law § 467-b",
+  "source_url": "https://www.nyc.gov/site/finance/benefits/tenants-scrie.page",
+  "last_verified": "2026-03-28",
+  "next_update": null,
+  "update_frequency": "subject to city council action (income limit may change)",
+  "related_programs": ["drie", "heap"]
+}

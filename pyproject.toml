@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mygovassist"
+version = "0.1.0"
+description = "Free, open-source NYC government benefits eligibility screener"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    { name = "Saurabh Saha" },
+]
+dependencies = [
+    "typer[all]>=0.12.0",
+    "rich>=13.0.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.3.0",
+]
+
+[project.optional-dependencies]
+ai = [
+    "litellm>=1.40.0",
+]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+    "ruff>=0.5.0",
+]
+
+[project.scripts]
+mygovassist = "mygovassist.cli.app:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mygovassist"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

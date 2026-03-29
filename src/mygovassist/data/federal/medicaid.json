@@ -1,0 +1,25 @@
+{
+  "program": "medicaid",
+  "display_name": "Medicaid / Essential Plan (Healthcare)",
+  "agency": "Centers for Medicare & Medicaid Services (CMS)",
+  "local_agency": "NY State of Health Marketplace",
+  "description": "Free or low-cost health coverage. NY expanded Medicaid under the ACA and offers the Essential Plan for those just above the Medicaid limit.",
+  "category": "healthcare",
+  "eligibility": {
+    "adults_pct_fpl": 138,
+    "children_pct_fpl": 154,
+    "child_health_plus_pct_fpl": 400,
+    "pregnant_women_pct_fpl": 223,
+    "essential_plan_pct_fpl": 200,
+    "notes": "Children may qualify for Child Health Plus up to 400% FPL. Essential Plan covers adults 138-200% FPL with $0-20/month premiums."
+  },
+  "apply_url": "https://nystateofhealth.ny.gov/",
+  "apply_in_person": "Visit a NYC HRA office or call NY State of Health at 1-855-355-5777.",
+  "how_to_apply": "Apply online at NY State of Health, by phone at 1-855-355-5777, or in person at an HRA office or navigator site.",
+  "citation": "42 USC 1396a(a)(10); 42 CFR 435; NY Social Services Law Article 5, Title 11",
+  "source_url": "https://www.health.ny.gov/health_care/medicaid/",
+  "last_verified": "2026-03-28",
+  "next_update": "2026-01-01",
+  "update_frequency": "annual (FPL update in January)",
+  "related_programs": ["nyc_care", "wic"]
+}

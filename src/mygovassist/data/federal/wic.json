@@ -1,0 +1,23 @@
+{
+  "program": "wic",
+  "display_name": "WIC (Nutrition for Women, Infants, Children)",
+  "agency": "USDA Food and Nutrition Service",
+  "local_agency": "NYC Department of Health and Mental Hygiene",
+  "description": "Provides nutritious foods, nutrition education, breastfeeding support, and health referrals for pregnant and postpartum women, infants, and children under 5.",
+  "category": "food",
+  "eligibility": {
+    "income_pct_fpl": 185,
+    "categorical_requirement": "Must be pregnant, postpartum (up to 6 months, or 12 months if breastfeeding), or an infant/child under age 5.",
+    "adjunctive_eligibility": "Automatically eligible if receiving Medicaid, SNAP, or TANF.",
+    "notes": "Income test applies to the individual, not the whole household, in some states."
+  },
+  "apply_url": "https://www.nyc.gov/site/doh/health/health-topics/wic.page",
+  "apply_in_person": "Visit a NYC WIC center. Find locations: https://www.nyc.gov/site/doh/health/health-topics/wic-find-a-clinic.page",
+  "how_to_apply": "Call 311 or visit a NYC WIC center with proof of identity, residency, and income.",
+  "citation": "42 USC 1786; 7 CFR 246",
+  "source_url": "https://www.health.ny.gov/prevention/nutrition/wic/",
+  "last_verified": "2026-03-28",
+  "next_update": "2026-07-01",
+  "update_frequency": "annual (FPL-based, updates when FPL changes)",
+  "related_programs": ["snap", "medicaid"]
+}

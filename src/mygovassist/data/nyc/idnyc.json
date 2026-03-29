@@ -1,0 +1,24 @@
+{
+  "program": "idnyc",
+  "display_name": "IDNYC (NYC Municipal ID)",
+  "agency": "NYC Mayor's Office of Immigrant Affairs",
+  "local_agency": null,
+  "description": "Free municipal identification card available to all NYC residents age 10+. Accepted as ID for city services, building access, and more. Includes benefits like free museum memberships.",
+  "category": "other",
+  "eligibility": {
+    "min_age": 10,
+    "min_age_without_parent": 14,
+    "income_limit": null,
+    "immigration_requirement": false,
+    "notes": "No income test. No immigration status requirement. Must prove NYC residency and identity. Ages 10-13 must apply with a parent/guardian."
+  },
+  "apply_url": "https://www.nyc.gov/site/idnyc/index.page",
+  "apply_in_person": "Visit an IDNYC enrollment center. Locations: https://www.nyc.gov/site/idnyc/card/enrollment-centers.page",
+  "how_to_apply": "Visit an IDNYC enrollment center with proof of identity and NYC residency. The card is free.",
+  "citation": "NYC Administrative Code § 3-115",
+  "source_url": "https://www.nyc.gov/site/idnyc/index.page",
+  "last_verified": "2026-03-28",
+  "next_update": null,
+  "update_frequency": "ongoing",
+  "related_programs": ["nyc_care"]
+}
