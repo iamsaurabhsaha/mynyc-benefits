@@ -1,0 +1,125 @@
+{
+  "version": "fy2026",
+  "last_updated": "2026-03-29",
+  "entries": [
+    {
+      "patterns": ["what is snap", "what does snap stand for", "tell me about snap", "snap program", "food stamps", "what are food stamps"],
+      "answer": "**SNAP (Supplemental Nutrition Assistance Program)** is a federal program that provides monthly food assistance on an EBT card.\n\nIn New York, SNAP uses Broad-Based Categorical Eligibility (BBCE), which means:\n- **Gross income limit:** 200% of the Federal Poverty Level\n- **No asset test** in NY\n- **Net income** must be at or below 100% FPL after deductions\n\nFor a household of 3, the gross income limit is approximately $53,300/year.\n\n**How to apply:** Online at [ACCESS HRA](https://a069-access.nyc.gov/accesshra/), by phone at 718-557-1399, or in person at your local HRA office.\n\n*Citation: 7 U.S.C. § 2014(c); NY Social Services Law § 95*",
+      "program": "snap",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["how to apply for snap", "apply for food stamps", "snap application", "where to apply snap"],
+      "answer": "**To apply for SNAP in NYC:**\n\n1. **Online:** [ACCESS HRA](https://a069-access.nyc.gov/accesshra/) — available 24/7\n2. **Phone:** Call 718-557-1399\n3. **In person:** Visit your local [HRA office](https://www.nyc.gov/site/hra/locations/locations.page)\n\nYou'll need:\n- Proof of identity (ID, birth certificate, etc.)\n- Proof of NYC residency (utility bill, lease, etc.)\n- Proof of income (pay stubs, tax return, etc.)\n- Social Security numbers for household members\n\nProcessing typically takes 30 days. Emergency (expedited) SNAP is available within 7 days if you qualify.",
+      "program": "snap",
+      "category": "how_to_apply"
+    },
+    {
+      "patterns": ["what is medicaid", "medicaid in new york", "ny medicaid", "free health insurance nyc"],
+      "answer": "**Medicaid** provides free or low-cost health coverage in New York.\n\n**Income limits (as % of Federal Poverty Level):**\n- Adults (19-64): **138% FPL**\n- Children (0-18): **154% FPL** (Medicaid) or up to **400% FPL** (Child Health Plus)\n- Pregnant women: **223% FPL**\n\n**NY Essential Plan:** If you earn between 138-200% FPL, you may qualify for the Essential Plan with **$0-20/month** premiums.\n\n**How to apply:** [NY State of Health](https://nystateofhealth.ny.gov/) or call 1-855-355-5777.\n\n*Citation: 42 USC 1396a(a)(10); NY Social Services Law Article 5, Title 11*",
+      "program": "medicaid",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is eitc", "earned income tax credit", "eitc nyc", "triple credit", "eitc new york"],
+      "answer": "**EITC (Earned Income Tax Credit)** is a tax credit for working individuals and families.\n\nNYC residents can receive a **triple credit:**\n1. **Federal EITC** — up to $7,830 (with 3+ children)\n2. **NY State EITC** — 30% of your federal EITC\n3. **NYC Noncustodial Parent EITC** — up to 5% of federal (narrower eligibility)\n\n**Income limits (2025 tax year, approximate):**\n- Single, no children: ~$18,600\n- Single, 1 child: ~$49,000\n- Single, 2 children: ~$55,700\n- Single, 3+ children: ~$59,900\n- Married filing jointly limits are higher\n\nYou must have **earned income** and a valid **SSN**.\n\n**How to claim:** File your federal and NY State tax return. Use [NYC Free Tax Prep](https://www.nyc.gov/site/dca/consumers/file-your-taxes.page) for free filing.\n\n*Citation: IRC Section 32; NY Tax Law Section 606(d)*",
+      "program": "eitc",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is wic", "wic program", "wic nyc", "nutrition program for mothers"],
+      "answer": "**WIC (Women, Infants, and Children)** provides nutritious foods, nutrition education, breastfeeding support, and health referrals.\n\n**Who qualifies:**\n- Pregnant women\n- Postpartum women (up to 6 months, or 12 months if breastfeeding)\n- Infants and children under age 5\n\n**Income limit:** 185% of the Federal Poverty Level. **Automatically eligible** if you receive SNAP, Medicaid, or TANF.\n\n**How to apply:** Call 311 or visit a [NYC WIC center](https://www.nyc.gov/site/doh/health/health-topics/wic-find-a-clinic.page).\n\n*Citation: 42 USC 1786; 7 CFR 246*",
+      "program": "wic",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is section 8", "section 8 nyc", "nycha housing", "public housing nyc", "housing voucher"],
+      "answer": "**Section 8 / NYCHA** provides rental assistance for low-income families in NYC.\n\n**Income limits** are based on Area Median Income (AMI):\n- Extremely low income (30% AMI): Priority for 75% of vouchers\n- Very low income (50% AMI): General eligibility\n\n**Important:** The NYCHA Section 8 and public housing **waitlists have been CLOSED** for several years. Monitor [nyc.gov/nycha](https://www.nyc.gov/site/nycha/eligibility/eligibility.page) for any new openings.\n\n**Alternative:** Check [NYC Housing Connect](https://housingconnect.nyc.gov/) for affordable housing lotteries.\n\n*Citation: 42 USC 1437f; 24 CFR 982*",
+      "program": "section8",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is fair fares", "fair fares nyc", "half price metrocard", "cheap metrocard", "reduced fare nyc"],
+      "answer": "**Fair Fares NYC** provides a **half-price MetroCard** for subway and eligible bus rides.\n\n**Who qualifies:**\n- NYC residents ages **18-64**\n- Household income at or below **100% FPL** (e.g., ~$15,650/year for 1 person)\n\nSeniors 65+ and people with disabilities qualify for separate MTA reduced fare programs.\n\n**How to apply:** [ACCESS HRA](https://a069-access.nyc.gov/accesshra/) or visit your local HRA office.\n\n*Citation: NYC Local Law (administered by DSS/HRA)*",
+      "program": "fair_fares",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is nyc care", "nyc care program", "healthcare for undocumented", "health insurance no papers", "uninsured nyc"],
+      "answer": "**NYC Care** provides low-cost healthcare to NYC residents who are **uninsured** and don't qualify for or can't afford health insurance.\n\n**Key features:**\n- **No immigration status requirement** — open to undocumented residents\n- No strict income limit\n- Provides a primary care provider, specialty care, prescriptions, and more\n- Available at all **NYC Health + Hospitals** facilities\n\n**How to enroll:** Call **646-NYC-CARE (646-692-2273)** or visit any NYC Health + Hospitals location.\n\n*Administered by NYC Health + Hospitals*",
+      "program": "nyc_care",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is idnyc", "nyc id card", "municipal id", "idnyc card", "free id nyc"],
+      "answer": "**IDNYC** is NYC's free municipal identification card.\n\n**Who qualifies:** All NYC residents age **10+** (ages 10-13 need a parent/guardian).\n- **No income test**\n- **No immigration status requirement**\n- Provides access to city services, building entry, and free museum memberships\n\n**How to get one:** Visit an [IDNYC enrollment center](https://www.nyc.gov/site/idnyc/card/enrollment-centers.page) with proof of identity and NYC residency.\n\n*Citation: NYC Administrative Code § 3-115*",
+      "program": "idnyc",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is scrie", "senior rent freeze", "rent freeze for seniors", "scrie program"],
+      "answer": "**SCRIE (Senior Citizen Rent Increase Exemption)** freezes rent for eligible seniors.\n\n**Who qualifies:**\n- Age **62 or older**\n- Combined household income **$50,000 or less**\n- Must live in a **rent-regulated** apartment\n- Must pay more than 1/3 of income toward rent\n\n**How to apply:** [NYC Department of Finance](https://www.nyc.gov/site/finance/benefits/tenants-scrie.page) — online, by mail, or in person.\n\n*Citation: NYC Administrative Code § 26-509; NY Real Property Tax Law § 467-b*",
+      "program": "scrie",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is drie", "disability rent freeze", "rent freeze disabled", "drie program"],
+      "answer": "**DRIE (Disability Rent Increase Exemption)** freezes rent for people with disabilities.\n\n**Who qualifies:**\n- Must receive **disability benefits** (SSI, SSDI, VA disability, etc.)\n- Combined household income **$50,000 or less**\n- Must live in a **rent-regulated** apartment\n- Must pay more than 1/3 of income toward rent\n\n**How to apply:** [NYC Department of Finance](https://www.nyc.gov/site/finance/benefits/tenants-drie.page) — online, by mail, or in person.\n\n*Citation: NYC Administrative Code § 26-510; NY Real Property Tax Law § 467-b*",
+      "program": "drie",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what is heap", "heap program", "help with heating", "energy assistance nyc", "help paying utility bill"],
+      "answer": "**HEAP (Home Energy Assistance Program)** helps low-income households pay heating and cooling costs.\n\n**Income limit:** Approximately 150% FPL (based on 60% of State Median Income).\n\n**Automatically eligible** if you receive SNAP, SSI, or Temporary Assistance.\n\n**Program periods:**\n- Regular HEAP: Opens ~November 1\n- Emergency HEAP: Opens ~January\n- Cooling Assistance: Available in summer\n\n**How to apply:** [ACCESS HRA](https://a069-access.nyc.gov/accesshra/) or call 212-331-3126.\n\n*Citation: 42 USC 8621-8630; NY Social Services Law § 97*",
+      "program": "heap",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["free tax filing", "free tax prep nyc", "where to file taxes free", "vita sites nyc"],
+      "answer": "**NYC Free Tax Prep** provides free tax preparation for NYC residents earning **$85,000 or less**.\n\nServices include:\n- Federal and NY State tax return filing\n- Help claiming EITC, Child Tax Credit, and other credits\n- Available in multiple languages\n\n**How to use:** Visit a [Free Tax Prep site](https://www.nyc.gov/site/dca/consumers/file-your-taxes.page) or call 311.\n\n*Administered by NYC Department of Consumer and Worker Protection (DCWP)*",
+      "program": "free_tax_prep",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["free food nyc", "food pantry near me", "getfood nyc", "emergency food nyc", "soup kitchen nyc"],
+      "answer": "**GetFoodNYC** connects you to free food resources across all five boroughs.\n\n- **No income test** required\n- **No ID** required at most sites\n- Includes food pantries, community kitchens, and distribution sites\n\n**How to find food:** Visit [GetFoodNYC](https://www.nyc.gov/site/foodpolicy/get-food/get-food.page) or call **311**.\n\nYou may also qualify for **SNAP** (monthly food assistance on an EBT card) — use `mygovassist check` to see if you're eligible.",
+      "program": "getfood",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["i lost my job", "just got laid off", "unemployed", "lost job what help"],
+      "answer": "**If you recently lost your job in NYC, here's what may be available to you:**\n\n1. **Unemployment Insurance** — File at [labor.ny.gov](https://dol.ny.gov/unemployment-insurance)\n2. **SNAP** — Food assistance up to $292-1,756/month depending on household size. Apply at [ACCESS HRA](https://a069-access.nyc.gov/accesshra/)\n3. **Medicaid** — Free health coverage if income is below 138% FPL. Apply at [NY State of Health](https://nystateofhealth.ny.gov/)\n4. **HEAP** — Help with heating/utility bills. Apply at ACCESS HRA\n5. **Fair Fares** — Half-price MetroCard if income is at/below 100% FPL\n6. **GetFoodNYC** — Immediate free food, no income test. Call 311\n\nRun `mygovassist screener` for a personalized check of all programs you may qualify for.",
+      "category": "life_event"
+    },
+    {
+      "patterns": ["im pregnant", "having a baby", "pregnant what benefits", "new baby"],
+      "answer": "**If you're pregnant or just had a baby in NYC:**\n\n1. **Medicaid** — Pregnant women qualify up to **223% FPL**. Apply at [NY State of Health](https://nystateofhealth.ny.gov/)\n2. **WIC** — Nutrition support for pregnant/postpartum women and children under 5. Income limit: 185% FPL. Visit a [NYC WIC center](https://www.nyc.gov/site/doh/health/health-topics/wic-find-a-clinic.page)\n3. **SNAP** — Food assistance. Apply at [ACCESS HRA](https://a069-access.nyc.gov/accesshra/)\n4. **Child Tax Credit** — $2,000/child when you file taxes\n5. **EITC** — Earned income credit increases with children\n\nRun `mygovassist screener` for a personalized check.",
+      "category": "life_event"
+    },
+    {
+      "patterns": ["im retiring", "about to retire", "senior benefits", "benefits for seniors", "over 62"],
+      "answer": "**Benefits for seniors in NYC:**\n\n1. **SCRIE** — Rent freeze if you're 62+, income ≤$50K, in a rent-regulated apartment. Apply at [NYC Finance](https://www.nyc.gov/site/finance/benefits/tenants-scrie.page)\n2. **Medicare** — Federal health coverage at 65+. [medicare.gov](https://www.medicare.gov/)\n3. **SNAP** — Seniors with low income qualify. Apply at [ACCESS HRA](https://a069-access.nyc.gov/accesshra/)\n4. **HEAP** — Help with heating costs. Apply at ACCESS HRA\n5. **MTA Reduced Fare** — Half-price MetroCard for 65+. Apply at [mta.info](https://new.mta.info/fares/reduced-fare)\n6. **IDNYC** — Free museum memberships and city services\n\nRun `mygovassist screener` for a personalized check.",
+      "category": "life_event"
+    },
+    {
+      "patterns": ["what is fpl", "federal poverty level", "poverty line", "what is poverty level"],
+      "answer": "The **Federal Poverty Level (FPL)** is an income threshold set annually by HHS. Most benefit programs use it to determine eligibility.\n\n**2025 FPL Guidelines (48 contiguous states + DC):**\n\n| Household Size | 100% FPL | 138% FPL | 200% FPL |\n|---|---|---|---|\n| 1 | $15,650 | $21,597 | $31,300 |\n| 2 | $21,150 | $29,187 | $42,300 |\n| 3 | $26,650 | $36,777 | $53,300 |\n| 4 | $32,150 | $44,367 | $64,300 |\n\nFor each additional person, add $5,500.\n\n*Source: [HHS ASPE](https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines)*",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["what benefits can i get", "what am i eligible for", "check my eligibility", "help me find benefits"],
+      "answer": "I can help you find NYC benefits you may qualify for!\n\nRun `mygovassist screener` for a guided, step-by-step eligibility check across **14 programs** including:\n- **Food:** SNAP, WIC, GetFoodNYC\n- **Healthcare:** Medicaid, NYC Care\n- **Tax Credits:** EITC (triple credit in NYC!), Child Tax Credit\n- **Housing:** Section 8/NYCHA, SCRIE, DRIE\n- **Other:** Fair Fares, HEAP, IDNYC, Free Tax Prep\n\nOr use `mygovassist check` with your details for an instant result.",
+      "category": "general_info"
+    },
+    {
+      "patterns": ["help with rent", "cant pay rent", "rent assistance nyc", "behind on rent"],
+      "answer": "**If you're struggling with rent in NYC:**\n\n1. **SCRIE** (seniors 62+) or **DRIE** (disabled) — Rent freeze in rent-regulated apartments. Income limit: $50K\n2. **Section 8 / NYCHA** — Rental assistance (waitlists currently closed, but check for openings)\n3. **NYC Housing Connect** — Affordable housing lotteries: [housingconnect.nyc.gov](https://housingconnect.nyc.gov/)\n4. **One Shot Deal** — Emergency rent assistance through HRA: [ACCESS HRA](https://a069-access.nyc.gov/accesshra/)\n5. **311** — Call for additional rental assistance resources\n\nAlso apply for **SNAP**, **Fair Fares**, and **HEAP** to reduce other expenses.",
+      "category": "life_event"
+    },
+    {
+      "patterns": ["undocumented benefits", "no papers what help", "immigrant benefits nyc", "benefits without citizenship"],
+      "answer": "**Benefits available regardless of immigration status in NYC:**\n\n1. **NYC Care** — Low-cost healthcare at NYC Health + Hospitals. Call 646-NYC-CARE\n2. **IDNYC** — Free municipal ID card. No immigration status check\n3. **GetFoodNYC** — Free food at pantries and community kitchens. No ID needed\n4. **WIC** — If pregnant or have children under 5 (income limit: 185% FPL)\n5. **Emergency Medicaid** — For emergency medical conditions\n6. **NYC Free Tax Prep** — If you file taxes with an ITIN\n\nSome programs (SNAP, regular Medicaid, EITC) require US citizenship or qualified immigrant status.\n\nRun `mygovassist screener` and set citizenship status to see which programs apply to you.",
+      "category": "life_event"
+    }
+  ]
+}
